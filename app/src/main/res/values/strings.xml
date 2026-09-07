@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lector de Pantalla</string>
+    <string name="accessibility_service_description">Permite leer en voz alta el texto visible en pantalla, por ejemplo versículos en apps bíblicas como Logos.</string>
+</resources>

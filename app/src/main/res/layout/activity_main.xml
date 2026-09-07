@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="1) Activá el servicio de accesibilidad.\n2) Dale permiso de superposición.\n3) Iniciá el botón flotante.\n4) Abrí Logos, tocá el botón flotante y va a leer en voz alta el texto de la pantalla. Tocalo de nuevo para detener la lectura."
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="1. Activar servicio de accesibilidad" />
+
+    <Button
+        android:id="@+id/btnOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="2. Dar permiso de superposición" />
+
+    <Button
+        android:id="@+id/btnStartFloating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="3. Iniciar botón flotante" />
+
+    <Button
+        android:id="@+id/btnStopFloating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detener botón flotante" />
+
+</LinearLayout>
